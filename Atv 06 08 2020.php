@@ -1,17 +1,14 @@
-<?php 
-	echo "Digite um número";
-	readline(num);
-	
-	if (num%2)
+<?php
+  echo "Identificando pares e impares" . PHP_EOL;  
+  
+  $num = readline ('Digite um numero: ');
 
-	{
-		echo "O número é par"
-	}
-	
-	if (num%3)
-
-	{ 
-		echo "O numero é impar"
+  if ($num/2) {
+    echo "O numero digitado é par";
+    }
+ 
+  else if ($num/3) {
+    echo "O numero digitado é impar";
     }
 
-<php
+?>
